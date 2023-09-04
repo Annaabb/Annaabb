@@ -1,0 +1,54 @@
+h3{
+    color: blueviolet;
+    /* background-color: black; */
+    background-color:rgb(73, 61, 61) ;
+}
+/* DRY */
+div,p{
+    color: brown;
+}
+/* p{ */
+    /* color: brown;
+/* } */
+#top{
+    background-color: black;
+}
+h3{
+    color: aqua;
+}
+div span{
+    color: black;
+}
+span{
+    color: chartreuse;
+}
+section.text__container{
+    color: aliceblue;
+    background-color: black;
+    padding: 100px;
+}
+.text__container{
+color: aliceblue;
+    background-color: black;
+}
+.big{
+    font-size: 20px;
+}
+    .text__container.big{
+        font-size: 40px;
+    }
+    *{
+        text-decoration: underline;
+    }
+    ul li:first-child{
+        background-color: yellow;
+    }
+    ul li:nth-child(3){
+        background-color: rgb(58, 201, 201);
+    }
+   ul li:last-child{
+    background-color: rgb(195, 74, 193);
+   }
+   a[href= "http://127.0.0.1:5500/03/page.html"]{
+    color: orange;
+   }
