@@ -1,0 +1,54 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;900&display=swap');
+ /* font-family: 'Inter', sans-serif;
+font-family: 'Roboto', sans-serif; */
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+.inline-block{
+/* display: inline-block; */
+display: block;
+}
+.example{
+    background-color: red;
+    border: 2px solid black;
+    /* height: 500px;
+    width: 500px; */
+    padding: 20px;
+}
+div:hover{
+    background-color: yellow;
+}
+.example img{
+    width: 100px;
+    height: auto;
+}
+div:hover img{
+    /* display: none; */
+    opacity: 0.1;
+}
+p{
+    font-size: 30px;
+    font-family: inherit;
+}
+@font-face {
+    font-family: "My font";
+    src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2");
+    }
+    .i-block-ex{
+        width: 600px;
+        margin: 0 auto;
+        background-color: green;
+        /* border: 1px solid black; */
+        font-size: 0px;
+    }
+.i-block-ex p{
+    width:300px ;
+    padding: 20px;
+    background-color: grey;
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+}
