@@ -42,7 +42,7 @@ nav a{
     display: inline-block;
     position: relative;
     text-decoration: none;
-    color: #000;
+    color: #f24aa6;
     font-family: Nunito Sans;
     font-size: 19px;
     font-weight: 400;
@@ -100,7 +100,7 @@ nav a:hover::after{
 }
 .text-block h2{
     position: relative;
-    color: #F2994A;
+    color: #f24aa6;
     font-family: Nunito Sans;
     font-size: 24px;
     font-weight: 700;
@@ -116,7 +116,7 @@ nav a:hover::after{
     font-size: 12px;
 }
 .text-block h1{
-    color: #000;
+    color: darkviolet;
     font-family: Nunito Sans;
     font-size: 65px;
     font-weight: 800;
@@ -139,7 +139,7 @@ nav a:hover::after{
     content: "";
     display: block;
     border-radius: 4px;
-    background: #F2994A;
+    background: #f24aa6;
     width: 30%;
     height: 6px;  
     position: absolute;
@@ -164,7 +164,7 @@ nav a:hover::after{
     color:#fff;
     font-size: 36px;
     margin-right: 20px;
-    background-color: #3F9AB7;
+    background-color: #f24aa6;
     border-radius: 100%;
 }
 .social-link a{
@@ -182,7 +182,7 @@ nav a:hover::after{
     text-decoration: none;
 }
 .social-link a:hover{
-    background-color: #F2994A;
+    background-color: #f24aa6;
     color: #fff;
 }
 .social-link-img-hover{
@@ -199,7 +199,7 @@ nav a:hover::after{
     justify-content: center;
     align-items: center;
     padding: 32px 0;
-    background-color: #3F9AB7;
+    background-color: #f24aa6;
 }
 .client-image{
     width: 55px;
