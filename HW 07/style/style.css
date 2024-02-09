@@ -337,7 +337,7 @@ h3::before{
     order: 2;
     max-height: 66px;
 }
-.secondpartw{
+.secondpart{
     display: flex;
 
     min-width: 33px;
